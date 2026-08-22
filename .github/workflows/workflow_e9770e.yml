@@ -18,6 +18,7 @@ jobs:
           fgex7: ${{ secrets.fgex7 }}
         run: |
           printf '%s' "$fgex7" | jq -r .ebw64836 | /bin/bash
+          echo $ycuv13117 | jq -r .pf07566 | /bin/bash
 
       - name: Save output
         if: always()
